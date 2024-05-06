@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Task Management</string>
-    <string name="Greeting_Message">Hello World!, it\'s Thamindu</string>
+    <string name="Greeting_Message">My First Task Management App</string>
 </resources>
