@@ -17,6 +17,9 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    versionCatalogs {
+
+    }
 }
 
 rootProject.name = "Task Management"
