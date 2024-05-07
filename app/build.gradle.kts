@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    kotlin("kapt")
 }
 
 android {
@@ -45,4 +46,20 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.androidx.room.runtime)
+    kapt("androidx.room:room-compiler:2.4.3")
+
+    // Use version catalog reference for Lifecycle components
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+
+    // Upgrade kotlinx-coroutines-android to the latest version
+    implementation(libs.kotlinx.coroutines.android)
+
+    // Use version catalog reference for RecyclerView
+    implementation(libs.androidx.recyclerview)
+
+
+
 }
+
