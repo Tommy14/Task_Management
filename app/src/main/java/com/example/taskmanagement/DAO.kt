@@ -1,19 +1,22 @@
 package com.example.taskmanagement
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
-import androidx.room.Update
 
+import androidx.room.*
+
+@Dao
 interface DAO {
     @Insert
-    suspend fun insertTask(task: Task)
+    suspend fun insertTask(entity: Entity)
 
     @Update
-    suspend fun updateTask(task: Task)
+    suspend fun updateTask(entity: Entity)
 
-    @Query("DELETE FROM tasks WHERE id = :taskId")
-    suspend fun deleteTask(taskId: Long)
+    @Delete
+    suspend fun deleteTask(entity: Entity)
 
-    @Query("SELECT * FROM tasks")
-    suspend fun getAllTask(): List<Task>
+    @Query("Delete from to_do")
+    suspend fun deleteAll()
+
+    @Query("Select * from to_do")
+    suspend fun getTasks():List<CardInfo>
+
 }
