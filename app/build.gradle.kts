@@ -1,12 +1,16 @@
 plugins {
-    alias(libs.plugins.androidApplication)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.android.application")
+    id("kotlin-android")
     kotlin("kapt")
 }
 
 android {
     namespace = "com.example.taskmanagement"
     compileSdk = 34
+
+    viewBinding {
+        enable = true;
+    }
 
     defaultConfig {
         applicationId = "com.example.taskmanagement"
@@ -57,7 +61,8 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
 
     // Use version catalog reference for RecyclerView
-    implementation(libs.androidx.recyclerview)
+    implementation (libs.androidx.recyclerview.v121)
+
 
 
 
