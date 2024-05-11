@@ -29,7 +29,7 @@ interface TaskDao {
 
     // Second Way
     @Query("DELETE FROM Task WHERE taskId == :taskId")
-    suspend fun deleteTaskUsingId(taskId: String) : Int
+    suspend fun deleteTaskUsingId(taskId: String): Int
 
 
     @Update
