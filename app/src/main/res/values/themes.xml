@@ -5,6 +5,11 @@
         <item name="android:statusBarColor">@color/black</item>
     </style>
 
+    <style name="BlackOutlineStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/black</item> <!-- Color of the outline -->
+        <item name="boxStrokeWidth">2dp</item> <!-- Width of the outline -->
+    </style>
+
 
 
     <style name="CardViewStyle" parent="Widget.Material3.CardView.Filled">

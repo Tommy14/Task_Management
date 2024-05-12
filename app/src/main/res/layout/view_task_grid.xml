@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    style="@style/CardViewStyle"
+
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="4dp"
@@ -23,8 +23,9 @@
             android:layout_height="wrap_content"
             android:text="@string/title"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:id="@+id/descrTxt"
@@ -34,7 +35,8 @@
             android:text="@string/description"
             android:textColor="@color/white"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:id="@+id/dateTxt"
@@ -54,17 +56,30 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <ImageView
+            <TextView
                 android:id="@+id/editImg"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:src="@drawable/ic_edit" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:text="@string/update"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true" />
 
-            <ImageView
+
+            <TextView
                 android:id="@+id/deleteImg"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:src="@drawable/ic_delete" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:text="@string/delete"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true" />
         </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

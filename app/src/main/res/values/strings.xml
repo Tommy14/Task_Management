@@ -1,9 +1,23 @@
 <resources>
-    <string name="app_name">todo</string>
-    <string name="add_button"></string>
+    <string name="app_name">LifeBalance</string>
+    <string name="add_button">Add Task</string>
     <string name="date">Date</string>
     <string name="description">Description</string>
     <string name="title">Title</string>
-    <string name="good_day">Good Day</string>
+    <string name="good_day">LifeBalance</string>
     <string name="search">Enter search title</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="sortButton">sortButton</string>
+    <string name="gridToList">gridToList</string>
+    <string name="Search">Enter search title</string>
+    <string name="today_s_task">Balance Your Work</string>
+    <string name="enter_the_task_description">Enter The Task Description</string>
+    <string name="enter_the_task_title">Enter The Task Title</string>
+    <string name="new_task">New Task</string>
+    <string name="save_task">Save Task</string>
+    <string name="quote">\"Finding harmony, one task at a time.\"</string>
+    <string name="onboard_quote1">Dive into a world where work and wellness walk hand in hand.
+        </string>
+    <string name="onboard_topic1">Find Your Harmony</string>
 </resources>

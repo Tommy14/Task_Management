@@ -7,9 +7,13 @@ import android.text.TextWatcher
 import android.util.Log
 import android.view.View
 import android.view.inputmethod.EditorInfo
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.MutableLiveData
@@ -32,6 +36,7 @@ import com.example.taskmanagement.utils.longToastShow
 import com.example.taskmanagement.utils.setupDialog
 import com.example.taskmanagement.utils.validateEditText
 import com.example.taskmanagement.viewmodels.TaskViewModel
+import com.google.android.material.card.MaterialCardView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
@@ -79,7 +84,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(mainBinding.root)
-
 
         // Add task start
         val addCloseImg = addTaskDialog.findViewById<ImageView>(R.id.closeImg)
@@ -346,6 +350,8 @@ class MainActivity : AppCompatActivity() {
                 }
             }
     }
+
+
 
     private fun callGetTaskList(taskRecyclerViewAdapter: TaskListAdapter) {
 
