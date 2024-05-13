@@ -12,7 +12,7 @@ LifeBalance is a task management application designed to help users organize the
 
 To get started with LifeBalance, follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+1. **Clone the Repository**: Clone this repository to your local machine using the following command: https://github.com/Tommy14/Task_Management.git
 
 2. **Open in Android Studio**: Open the project in Android Studio.
 
@@ -20,7 +20,13 @@ To get started with LifeBalance, follow these steps:
 
 ## Screenshots
 
-Include screenshots or GIFs showcasing the app's UI and features here.
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="app/src/main/res/drawable/onboardScreen.png" width="200" alt="Onboard Screen">
+    <img src="app/src/main/res/drawable/mainScreen 22.07.21.png" width="200" alt="Main UI">
+    <img src="app/src/main/res/drawable/AddTask 22.07.21.png" width="200" alt="Add New Task">
+    <img src="app/src/main/res/drawable/updateTask 22.07.21.png" width="200" alt="Update Existing Task">
+</div>
+
 
 ## Issues
 
