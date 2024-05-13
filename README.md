@@ -21,10 +21,10 @@ To get started with LifeBalance, follow these steps:
 ## Screenshots
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="app/src/main/res/drawable/onboardScreen.png" width="200" alt="Onboard Screen">
-    <img src="app/src/main/res/drawable/mainScreen 22.07.21.png" width="200" alt="Main UI">
-    <img src="app/src/main/res/drawable/AddTask 22.07.21.png" width="200" alt="Add New Task">
-    <img src="app/src/main/res/drawable/updateTask 22.07.21.png" width="200" alt="Update Existing Task">
+    <img src="app/src/main/res/drawable/onboard_screen.png" width="200" alt="Onboard Screen">
+    <img src="app/src/main/res/drawable/main_screen.png" width="200" alt="Main UI">
+    <img src="app/src/main/res/drawable/add_task.png" width="200" alt="Add New Task">
+    <img src="app/src/main/res/drawable/update_task.png" width="200" alt="Update Existing Task">
 </div>
 
 
