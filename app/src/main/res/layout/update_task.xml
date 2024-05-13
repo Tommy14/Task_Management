@@ -15,9 +15,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="Update Task"
+            android:text="@string/update_task"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
 
         <ImageView
             android:id="@+id/closeImg"

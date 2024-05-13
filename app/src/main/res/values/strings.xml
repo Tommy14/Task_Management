@@ -15,9 +15,10 @@
     <string name="enter_the_task_description">Enter The Task Description</string>
     <string name="enter_the_task_title">Enter The Task Title</string>
     <string name="new_task">New Task</string>
-    <string name="save_task">Save Task</string>
+    <string name="save_task">Add Task</string>
     <string name="quote">\"Finding harmony, one task at a time.\"</string>
     <string name="onboard_quote1">Dive into a world where work and wellness walk hand in hand.
         </string>
     <string name="onboard_topic1">Find Your Harmony</string>
+    <string name="update_task">Update Task</string>
 </resources>
