@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LifeBalance</string>
+    <string name="app_name">Life Balance</string>
     <string name="add_button">Add Task</string>
     <string name="date">Date</string>
     <string name="description">Description</string>
@@ -21,4 +21,5 @@
         </string>
     <string name="onboard_topic1">Find Your Harmony</string>
     <string name="update_task">Update Task</string>
+    <string name="loading">Loading</string>
 </resources>
