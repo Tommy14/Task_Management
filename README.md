@@ -28,9 +28,5 @@ To get started with LifeBalance, follow these steps:
 </div>
 
 
-## Issues
-
-If you encounter any issues or have suggestions for improvements, please feel free to [create an issue](https://github.com/Tommy14/lifebalance/issues) on this repository.
-
 
 
