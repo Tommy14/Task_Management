@@ -27,9 +27,9 @@ class TaskViewModel(application: Application) : AndroidViewModel(application) {
         taskRepository.insertTask(task)
     }
 
-    fun deleteTask(task: Task) {
-        taskRepository.deleteTask(task)
-    }
+//    fun deleteTask(task: Task) {
+//        taskRepository.deleteTask(task)
+//    }
 
     fun deleteTaskUsingId(taskId: String){
         taskRepository.deleteTaskUsingId(taskId)

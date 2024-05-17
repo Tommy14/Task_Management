@@ -22,4 +22,7 @@
     <string name="onboard_topic1">Find Your Harmony</string>
     <string name="update_task">Update Task</string>
     <string name="loading">Loading</string>
+    <string name="next">Next</string>
+    <string name="productivity_image">productvity_image</string>
+    <string name="get_started">Get Started</string>
 </resources>

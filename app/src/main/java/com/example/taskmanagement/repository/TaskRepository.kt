@@ -75,18 +75,18 @@ class TaskRepository(application: Application) {
     }
 
 
-    fun deleteTask(task: Task) {
-        try {
-            _statusLiveData.postValue(Loading())
-            CoroutineScope(Dispatchers.IO).launch {
-                val result = taskDao.deleteTask(task)
-                handleResult(result, "Deleted Task Successfully", StatusResult.Deleted)
-
-            }
-        } catch (e: Exception) {
-            _statusLiveData.postValue(Error(e.message.toString()))
-        }
-    }
+//    fun deleteTask(task: Task) {
+//        try {
+//            _statusLiveData.postValue(Loading())
+//            CoroutineScope(Dispatchers.IO).launch {
+//                val result = taskDao.deleteTask(task)
+//                handleResult(result, "Deleted Task Successfully", StatusResult.Deleted)
+//
+//            }
+//        } catch (e: Exception) {
+//            _statusLiveData.postValue(Error(e.message.toString()))
+//        }
+//    }
 
     fun deleteTaskUsingId(taskId: String) {
         try {

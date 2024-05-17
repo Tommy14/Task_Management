@@ -98,7 +98,7 @@
             android:layout_marginBottom="2dp"
             android:contentDescription="@string/gridToList"
             android:src="@drawable/ic_view_list"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:backgroundTint="@color/white"
             app:elevation="6dp"
             app:fabSize="mini"

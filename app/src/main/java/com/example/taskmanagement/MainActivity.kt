@@ -242,14 +242,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun restoreDeletedTask(deletedTask : Task){
-        val snackBar = Snackbar.make(
+        val snackBarUndo = Snackbar.make(
             mainBinding.root, "Deleted '${deletedTask.title}'",
             Snackbar.LENGTH_LONG
         )
-        snackBar.setAction("Undo"){
+        snackBarUndo.setAction("Undo"){
             taskViewModel.insertTask(deletedTask)
         }
-        snackBar.show()
+        snackBarUndo.show()
     }
 
     private fun callSearch() {
