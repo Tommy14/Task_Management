@@ -28,11 +28,5 @@ To get started with LifeBalance, follow these steps:
 </div>
 
 
-## Issues
 
-If you encounter any issues or have suggestions for improvements, please feel free to [create an issue](https://github.com/your-username/lifebalance/issues) on this repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
